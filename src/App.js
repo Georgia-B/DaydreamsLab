@@ -2,8 +2,8 @@ import React from 'react';
 
 const App = () => (
     <div className="main">
-        <h1>Daydreams Lab</h1>
-        <h2>Hello World</h2>
+        <h1>Hello World</h1>
+        <h3>Daydreams Lab</h3>
     </div>
 )
 
