@@ -1,0 +1,23 @@
+version: 0.2
+
+#env:
+  #variables:
+     # key: "value"
+     # key: "value"
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+  #git-credential-helper: yes
+
+phases:
+  pre_build:
+    commands:
+       - npm install webpack-cli
+       - npm install
+  build:
+    commands:
+       - npm run build-prod
+artifacts:
+  files:
+     - '*'
+  base-directory: dist
